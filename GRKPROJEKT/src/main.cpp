@@ -343,8 +343,8 @@ void init()
 
 	manager = new EntityManager();
 
-	for(int i = 1; i < 2; i++)
-		manager->Add("shark", new Fish(&shark, &programColor, glm::translate(glm::vec3(10.f * (float)i, 0.f, 0.f)) * glm::scale(glm::vec3((float)i * 1.2f)), glm::vec3(0.6f, 0.6f, 0.6f)));
+	for(int i = 0; i < 2; i++)
+		manager->Add("shark", new Fish(&shark, &programColor, glm::translate(glm::vec3(0.f, 0.f, 10.f * (float)i)), glm::vec3(0.6f, 0.6f, 0.6f)));
 
 	//load Cubemap texture
 	std::vector<std::string> faces;

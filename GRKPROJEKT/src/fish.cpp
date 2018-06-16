@@ -6,7 +6,7 @@ Fish::Fish(obj::Model* model, GLuint* program, glm::mat4 modelMatrix, glm::vec3 
 
 	this->model = model;
 	this->programShader = program;
-	this->modelMatrix = modelMatrix;
+	this->translate = modelMatrix;
 }
 Fish::Fish(obj::Model* model, GLuint* program, glm::mat4 modelMatrix, GLuint* texture)
 {
@@ -27,19 +27,19 @@ bool Fish::Update()
 
 	float time = glutGet(GLUT_ELAPSED_TIME) / 1000.0f;
 	//glm::mat4 translate;
-	glm::mat4 rotate;
+	//glm::mat4 rotate;
 
-	rotate[0][0] = cos(time);
-	rotate[2][2] = cos(time);
-	rotate[0][2] = sin(time);
-	rotate[2][0] = -sin(time);
+	this->rotate[0][0] = cos(time);
+	this->rotate[2][2] = cos(time);
+	this->rotate[0][2] = sin(time);
+	this->rotate[2][0] = -sin(time);
 
-	this->translate[3][0] = 0.f;//x
+	//this->translate[3][0] = 0.f;//x
 	this->translate[3][1] += 0.001f;//y
-	this->translate[3][2] = 10.f;// -sunDistance; //z
+	//this->translate[3][2] = 10.f;// -sunDistance; //z
 
-	this->modelMatrix = rotate * this->translate;
-	return Entity::Update();
+	this->modelMatrix = this->rotate * this->translate;
+	return true;
 }
 void Fish::Render(glm::mat4 cameraMatrix, glm::mat4 perspectiveMatrix)
 {
