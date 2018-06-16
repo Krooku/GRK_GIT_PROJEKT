@@ -203,6 +203,13 @@
     <Object Include="Debug\stb_image.obj" />
     <Object Include="Debug\texload.obj" />
     <Object Include="Debug\Texture.obj" />
+    <Object Include="models\earth.obj" />
+    <Object Include="models\ground2.obj" />
+    <Object Include="models\orca.obj" />
+    <Object Include="models\shark.obj" />
+    <Object Include="models\spaceship.obj" />
+    <Object Include="models\sphere.obj" />
+    <Object Include="models\sphere_different_texcoords.obj" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug\grk-cw7.exe" />
@@ -335,9 +342,59 @@
     <None Include="dependencies\glm\gtx\wrap.inl" />
     <None Include="freeglut.dll" />
     <None Include="glew32.dll" />
+    <None Include="models\orca.mtl" />
+    <None Include="models\shark.mtl" />
+    <None Include="shaders\light_ray.frag" />
+    <None Include="shaders\light_ray.vert" />
+    <None Include="shaders\shader_color.frag" />
+    <None Include="shaders\shader_color.vert" />
+    <None Include="shaders\shader_proc_tex.frag" />
+    <None Include="shaders\shader_proc_tex.vert" />
+    <None Include="shaders\shader_tex.frag" />
+    <None Include="shaders\shader_tex.vert" />
+    <None Include="shaders\skybox.frag" />
+    <None Include="shaders\skybox.vert" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Debug\grk-cw7.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\asteroid.png" />
+    <Image Include="textures\earth.png" />
+    <Image Include="textures\earth2.png" />
+    <Image Include="textures\groundtex.png" />
+    <Image Include="textures\jupitermap.png" />
+    <Image Include="textures\marsmap.png" />
+    <Image Include="textures\mercurymap.png" />
+    <Image Include="textures\moonmap.png" />
+    <Image Include="textures\skybox2\back.jpg" />
+    <Image Include="textures\skybox2\bottom.jpg" />
+    <Image Include="textures\skybox2\front.jpg" />
+    <Image Include="textures\skybox2\left.jpg" />
+    <Image Include="textures\skybox2\right.jpg" />
+    <Image Include="textures\skybox2\top.jpg" />
+    <Image Include="textures\skybox3\back.jpg" />
+    <Image Include="textures\skybox3\bottom.jpg" />
+    <Image Include="textures\skybox3\front.jpg" />
+    <Image Include="textures\skybox3\left.jpg" />
+    <Image Include="textures\skybox3\right.jpg" />
+    <Image Include="textures\skybox3\top.jpg" />
+    <Image Include="textures\skybox4\back.jpg" />
+    <Image Include="textures\skybox4\bottom.jpg" />
+    <Image Include="textures\skybox4\front.jpg" />
+    <Image Include="textures\skybox4\left.jpg" />
+    <Image Include="textures\skybox4\right.jpg" />
+    <Image Include="textures\skybox4\top.jpg" />
+    <Image Include="textures\skybox\back.jpg" />
+    <Image Include="textures\skybox\stars_bk.jpg" />
+    <Image Include="textures\skybox\stars_dn.jpg" />
+    <Image Include="textures\skybox\stars_fr.jpg" />
+    <Image Include="textures\skybox\stars_lf.jpg" />
+    <Image Include="textures\skybox\stars_rf.jpg" />
+    <Image Include="textures\skybox\stars_rt.jpg" />
+    <Image Include="textures\skybox\stars_up.jpg" />
+    <Image Include="textures\sunmap.png" />
+    <Image Include="textures\venusmap.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B448102-E76C-4347-BDC7-40D02A567DB6}</ProjectGuid>

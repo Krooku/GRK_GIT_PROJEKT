@@ -561,6 +561,13 @@
     <Object Include="Debug\stb_image.obj" />
     <Object Include="Debug\texload.obj" />
     <Object Include="Debug\Texture.obj" />
+    <Object Include="models\earth.obj" />
+    <Object Include="models\ground2.obj" />
+    <Object Include="models\orca.obj" />
+    <Object Include="models\shark.obj" />
+    <Object Include="models\sphere_different_texcoords.obj" />
+    <Object Include="models\sphere.obj" />
+    <Object Include="models\spaceship.obj" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug\grk-cw7.exe" />
@@ -921,8 +928,130 @@
     </None>
     <None Include="freeglut.dll" />
     <None Include="glew32.dll" />
+    <None Include="shaders\light_ray.frag" />
+    <None Include="shaders\light_ray.vert" />
+    <None Include="shaders\shader_color.frag" />
+    <None Include="shaders\shader_color.vert" />
+    <None Include="shaders\shader_proc_tex.frag" />
+    <None Include="shaders\shader_proc_tex.vert" />
+    <None Include="shaders\shader_tex.frag" />
+    <None Include="shaders\shader_tex.vert" />
+    <None Include="shaders\skybox.frag" />
+    <None Include="shaders\skybox.vert" />
+    <None Include="models\orca.mtl" />
+    <None Include="models\shark.mtl" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Debug\grk-cw7.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\skybox\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox\stars_bk.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox\stars_dn.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox\stars_fr.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox\stars_lf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox\stars_rf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox\stars_up.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox\stars_rt.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox2\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox2\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox2\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox2\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox2\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox2\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox3\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox3\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox3\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox3\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox3\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox3\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox4\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox4\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox4\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox4\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox4\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\skybox4\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\asteroid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\earth.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\earth2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\groundtex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\marsmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\jupitermap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\mercurymap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\moonmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\sunmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\venusmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
