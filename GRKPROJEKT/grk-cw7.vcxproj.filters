@@ -89,6 +89,13 @@
     <None Include="shaders\shader_tex.vert" />
     <None Include="shaders\skybox.frag" />
     <None Include="shaders\skybox.vert" />
+    <None Include="freeglut.dll" />
+    <None Include="glew32.dll" />
+    <None Include="Release\grk-cw7.exe" />
+    <None Include="Release\grk-cw7.iobj" />
+    <None Include="Release\grk-cw7.ipdb" />
+    <None Include="Release\grk-cw7.pdb" />
+    <None Include="Release\vc141.pdb" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="textures\skybox\back.jpg">
@@ -199,5 +206,31 @@
     <Image Include="textures\venusmap.png">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Release\Camera.obj" />
+    <Object Include="Release\entity.obj" />
+    <Object Include="Release\entity_manager.obj" />
+    <Object Include="Release\fish.obj" />
+    <Object Include="Release\main.obj" />
+    <Object Include="Release\Render_Utils.obj" />
+    <Object Include="Release\picopng.obj" />
+    <Object Include="Release\Shader_Loader.obj" />
+    <Object Include="Release\stb_image.obj" />
+    <Object Include="Release\Texture.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Release\grk-cw7.Build.CppClean.log" />
+    <Text Include="Release\grk-cw7.log" />
+    <Text Include="dependencies\freeglut\Copying.txt" />
+    <Text Include="dependencies\freeglut\Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\glew-2.0.0\lib\Release\Win32\glew32.lib" />
+    <Library Include="dependencies\glew-2.0.0\lib\Release\Win32\glew32s.lib" />
+    <Library Include="dependencies\glew-2.0.0\lib\Release\x64\glew32.lib" />
+    <Library Include="dependencies\glew-2.0.0\lib\Release\x64\glew32s.lib" />
+    <Library Include="dependencies\freeglut\lib\freeglut.lib" />
+    <Library Include="dependencies\freeglut\lib\x64\freeglut.lib" />
   </ItemGroup>
 </Project>

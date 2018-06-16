@@ -35,6 +35,13 @@
     <ClInclude Include="src\Texture.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="freeglut.dll" />
+    <None Include="glew32.dll" />
+    <None Include="Release\grk-cw7.exe" />
+    <None Include="Release\grk-cw7.iobj" />
+    <None Include="Release\grk-cw7.ipdb" />
+    <None Include="Release\grk-cw7.pdb" />
+    <None Include="Release\vc141.pdb" />
     <None Include="shaders\light_ray.frag" />
     <None Include="shaders\light_ray.vert" />
     <None Include="shaders\shader_color.frag" />
@@ -83,6 +90,32 @@
     <Image Include="textures\skybox\stars_up.jpg" />
     <Image Include="textures\sunmap.png" />
     <Image Include="textures\venusmap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Release\Camera.obj" />
+    <Object Include="Release\entity.obj" />
+    <Object Include="Release\entity_manager.obj" />
+    <Object Include="Release\fish.obj" />
+    <Object Include="Release\main.obj" />
+    <Object Include="Release\picopng.obj" />
+    <Object Include="Release\Render_Utils.obj" />
+    <Object Include="Release\Shader_Loader.obj" />
+    <Object Include="Release\stb_image.obj" />
+    <Object Include="Release\Texture.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dependencies\freeglut\Copying.txt" />
+    <Text Include="dependencies\freeglut\Readme.txt" />
+    <Text Include="Release\grk-cw7.Build.CppClean.log" />
+    <Text Include="Release\grk-cw7.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\freeglut\lib\freeglut.lib" />
+    <Library Include="dependencies\freeglut\lib\x64\freeglut.lib" />
+    <Library Include="dependencies\glew-2.0.0\lib\Release\Win32\glew32.lib" />
+    <Library Include="dependencies\glew-2.0.0\lib\Release\Win32\glew32s.lib" />
+    <Library Include="dependencies\glew-2.0.0\lib\Release\x64\glew32.lib" />
+    <Library Include="dependencies\glew-2.0.0\lib\Release\x64\glew32s.lib" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B448102-E76C-4347-BDC7-40D02A567DB6}</ProjectGuid>
